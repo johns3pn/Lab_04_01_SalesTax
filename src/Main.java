@@ -3,15 +3,15 @@
 public class Main {
     public static void main(String[] args) {
 
-                double purchasePrice = 100.00;
+        double purchasePrice = 100.00;
 
-                double salesTax = purchasePrice * 0.05;
+        double salesTax = purchasePrice * 0.05;
 
-                double totalCost = purchasePrice + salesTax;
+        double totalCost = purchasePrice + salesTax;
 
-                System.out.println("Purchase Price: $" + purchasePrice);
-                System.out.println("Sales Tax (5%): $" + salesTax);
-                System.out.println("Total Cost: $" + totalCost);
-            }
+        System.out.println("Purchase Price: $" + purchasePrice);
+        System.out.println("Sales Tax (5%): $" + salesTax);
+        System.out.println("Total Cost: $" + totalCost);
+    }
 
 }
